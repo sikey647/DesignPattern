@@ -1,0 +1,4 @@
+
+class VirtualWalletEntity {};
+
+class VirtualWalletRepository {};
