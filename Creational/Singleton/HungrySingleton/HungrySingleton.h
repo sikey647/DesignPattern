@@ -7,9 +7,11 @@ public:
     HungrySingleton& operator=(const HungrySingleton&) = delete;
     
     static HungrySingleton* getInstance();
+    void destroy();
 
 private:
     HungrySingleton();
+    ~HungrySingleton();
 
     static HungrySingleton *instance;
 };

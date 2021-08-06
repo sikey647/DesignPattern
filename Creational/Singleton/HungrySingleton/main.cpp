@@ -12,5 +12,8 @@ int main() {
         std::cout << "HungrySingleton is not Singleton" << std::endl;
     }
 
+    hs1->destroy();
+    hs2->destroy();
+
     return 0;
 }
